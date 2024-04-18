@@ -3,7 +3,8 @@
 
 interface Monster {
     id: number,
-    sort: any
+    sort: any,
+    Name: string,
     Res: number,
     Str: number,
     Dex: number,
