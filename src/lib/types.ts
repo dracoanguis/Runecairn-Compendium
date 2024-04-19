@@ -6,6 +6,7 @@ interface Monster {
     sort: any,
     Name: string,
     Res: number,
+    Def: number | undefined,
     Str: number,
     Dex: number,
     Wit: number,
@@ -13,6 +14,5 @@ interface Monster {
     Speed: number,
     Weapon: string,
     Description?: string,
-    BLQ?: string,
-    Special?: String
+    Speed_type?: string[],
 }
