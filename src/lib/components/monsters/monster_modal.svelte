@@ -12,8 +12,10 @@
     <svelte:fragment slot="header">
         <h2 class="font-jacquard text-6xl font-semibold text-black dark:text-white">{monster.Name}</h2>
     </svelte:fragment>
-    <p class="font-bold">Res: {monster.Res} | {def} Str: {monster.Str} | Dex: {monster.Dex} | Wit: {monster.Wit} | Spi: {monster.Spi} | Speed: {monster.Speed}ft {speed_type} | {monster.Weapon}</p>
-    <Hr class="my-3 flex w-fit" height="h-px" />
-    {@html monster.Description}
+    <div class="text-black dark:text-white">
+        <p class="font-bold">Res: {monster.Res} | {def} Str: {monster.Str} | Dex: {monster.Dex} | Wit: {monster.Wit} | Spi: {monster.Spi} | Speed: {monster.Speed}ft {speed_type} | {monster.Weapon}</p>
+        <Hr class="my-3 flex w-fit" height="h-px" />
+        {@html monster.Description}
+    </div>
 </Modal>
 
