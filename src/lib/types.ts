@@ -4,7 +4,7 @@ interface Monster {
     sort: any,
     Name: string,
     Res: number,
-    Def: number | undefined,
+    Def?: number,
     Str: number,
     Dex: number,
     Wit: number,
@@ -32,5 +32,5 @@ interface Skill {
     Name: string,
     Properties?: string[],
     short_desc?: string,
-    long_desc?: string,
+    long_description?: string,
 }
