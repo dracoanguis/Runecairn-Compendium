@@ -7,7 +7,7 @@
 
 </script>
 
-<Popover placement="bottom-start">
+<Popover placement="bottom-start" class="drop-shadow-2xl max-w-96">
     <svelte:fragment slot="title">
         <div class="flex gap-x-2 text-lg font-bold text-black dark:text-white">
             <p>{skill.Name}</p>

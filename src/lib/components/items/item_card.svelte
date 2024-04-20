@@ -35,7 +35,7 @@
     }})(item.Type[0])) +"black.png";
 </script>
 
-<Card class="max-h-44 cursor-pointer bg-slate-100 hover:text-slate-600 text-gray-900 dark:hover:text-gray-400 dark:text-white border-black dark:border-gray-400" on:click={() => open=true}>
+<Card class="max-h-44 w-7/12 cursor-pointer bg-slate-100 hover:text-slate-600 text-gray-900 dark:hover:text-gray-400 dark:text-white border-black dark:border-gray-400" on:click={() => open=true}>
     <div class="flex flex-row items-center gap-x-2">
         <Img class="max-w-7 max-h-7 block dark:invert" src="{type_img}"/>
         <h3 class="font-jacquard text-4xl font-semibold tracking-tight">{item.Name} {tdi}</h3>

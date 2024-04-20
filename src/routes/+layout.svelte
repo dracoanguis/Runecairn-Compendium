@@ -13,7 +13,6 @@
 
 <Navbar class="bg-gray-200">
 	<NavBrand href="/">
-		<!-- # Try putting this in gandur-new -->
 		<span class="self-center whitespace-nowrap text-6xl font-bold font-jacquard dark:text-white">Runecairn</span>
 		<span class="self-end whitespace-nowrap text-2xl font-semibold font-jacquard dark:text-white">Compendium</span>
 	</NavBrand>

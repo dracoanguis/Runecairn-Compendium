@@ -23,7 +23,7 @@
                     {#if item.Qualities}
                         {#each item.Qualities as quality}
                             <p class="text-gray-900  dark:text-white font-bold text-lg">| {quality} </p>
-                        {/each}    
+                        {/each}
                     {/if}
                     {#if skills}
                         {#each skills as skill}
@@ -38,5 +38,7 @@
             {/if}
         </div>
     </svelte:fragment>
-    {@html item.Description}
+    <div class=" font-medium text-lg text-black dark:text-white">
+        {@html item.Description}
+    </div>
 </Modal>
