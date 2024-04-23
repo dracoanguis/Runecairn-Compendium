@@ -9,7 +9,6 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
-  PUBLIC_APIURL: http://localhost/api
 
 jobs:
 
@@ -44,3 +43,6 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+        
+        env:
+          PUBLIC_APIURL: http://localhost/api
