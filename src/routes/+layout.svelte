@@ -1,6 +1,7 @@
 <script>
 	import { DarkMode, NavBrand, NavLi, NavUl, Navbar } from 'flowbite-svelte';
 	import '../app.pcss';
+	import { directus } from '$lib/store';
 
 	let menu = [
 		{name: "Monsters", href: "/monsters"},
