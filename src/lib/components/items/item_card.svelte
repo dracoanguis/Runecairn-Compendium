@@ -44,14 +44,12 @@
         <div class="flex justify-start p-1 flex-wrap gap-x-1 align-middle">
             {#if item.Qualities}
                 {#each item.Qualities as quality}
-                    <!-- <div class="rounded-xl dark:bg-slate-700 bg-white px-2 size-max border-2 border-black dark:border-white  text-gray-900  dark:text-white">{quality}</div> -->
                     <p class="text-gray-900  dark:text-white font-bold text-lg">| {quality} </p>
                 {/each}    
             {/if}
             {#if skills}
                 {#each skills as skill}
                     {#await skill then skill}
-                        <!-- <div class="rounded-xl dark:bg-slate-700 bg-white px-2 size-max border-2 border-black dark:border-white  text-gray-900  dark:text-white">{skill.Name}</div> -->
                         <p class="text-gray-900  dark:text-white font-bold text-lg">| {skill.Name}</p>
                     {/await}
                 {/each}

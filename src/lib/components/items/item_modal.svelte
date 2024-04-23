@@ -29,7 +29,7 @@
                         {#each skills as skill}
                             {#await skill then skill}
                                 <p class="text-gray-900  dark:text-white font-bold text-lg">| {skill.Name}</p>
-                                <SkillPopover {skill} />
+                                <SkillPopover {skill} expanded={false}/>
                             {/await}
                         {/each}
                     {/if}

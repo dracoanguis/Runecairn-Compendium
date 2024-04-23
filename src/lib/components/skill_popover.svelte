@@ -2,8 +2,7 @@
 	import { ArrowKeyDown, ArrowKeyUp, Button, Popover } from "flowbite-svelte";
 
     export let skill: Skill;
-
-    let expanded = false;
+    export let expanded = false;
 
 </script>
 
