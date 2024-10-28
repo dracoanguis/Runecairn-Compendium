@@ -1,6 +1,6 @@
 FROM node:20-alpine AS build
 
-LABEL Developers="Hugo Haldi"
+LABEL Developers="Hugo Haldi, Ethan Arm"
 
 # Set the environment variable to the URL of the API
 ARG PUBLIC_APIURL
